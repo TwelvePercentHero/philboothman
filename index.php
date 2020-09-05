@@ -1,5 +1,12 @@
 <?php get_header(); ?>
 
-<h1>Hi from Phil Boothman!</h1>
+<?php while(have_posts()) {
+    the_post();
+?>
+
+<?php the_title(); ?>
+
+<?php } wp_reset_query(); ?>
+
 
 <?php get_footer(); ?>
