@@ -8,5 +8,6 @@
 </head>
 <body>
 
-<h1>This is the Header</h1>
+<h1>Phil Boothman</h1>
+<p>The personal site of Phil Boothman</p>
     
