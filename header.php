@@ -8,6 +8,12 @@
 </head>
 <body>
 
-<h1>Phil Boothman</h1>
-<p>The personal site of Phil Boothman</p>
+<header>
+
+    <a class="header-link" href="<?php echo site_url('') ?>">
+        <h1 class="main-header">
+            philboothman.com</h1>
+        <h2 class="sub-header">The online home of Phil Boothman</h2>
+    </a>
     
+</header>

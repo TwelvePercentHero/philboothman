@@ -14,7 +14,36 @@ html {
 }
 
 body {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
-    font-family: 'Exo', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    height: 40px;
+}
+
+.main-header {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.header-link {
+    text-decoration: none;
+    color: black;
+}
+
+.header-link:hover {
+    color: grey;
+}
+
+.sub-header {
+    font-size: 14px;
+    margin-top: 3px;
+    color: grey;
+}
+
+main {
+    margin-top: 40px;
 }
