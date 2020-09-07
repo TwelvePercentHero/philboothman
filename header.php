@@ -9,11 +9,23 @@
 <body>
 
 <header>
-
+    <div class="logo">
     <a class="header-link" href="<?php echo site_url('') ?>">
         <h1 class="main-header">
-            phil boothman</h1>
+            Phil Boothman</h1>
         <h2 class="sub-header">Writer | Artist | Filmmaker</h2>
     </a>
+    </div>
+    <div class="hamburger">
+        <i class="material-icons" onclick="toggleMenu()">dehaze</i>
+    </div>
     
 </header>
+
+<nav id="nav-menu">
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Blog</li>
+    </ul>
+</nav>
