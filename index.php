@@ -1,16 +1,24 @@
 <?php get_header(); ?>
 
-<main>
+<h2>Latest</h2>
 
-<?php while(have_posts()) {
-    the_post();
-?>
+<hr>
 
-<?php the_title(); ?>
+
+<div class="post-list">
+    <?php while(have_posts()) {
+        the_post();
+    ?>
+
+    <div class="post">
+
+        <h4><?php the_title(); ?></h4>
+        <?php the_content(); ?>
+
+    </div>
+</div>
 
 <?php } wp_reset_query(); ?>
-
-</main>
 
 
 <?php get_footer(); ?>
