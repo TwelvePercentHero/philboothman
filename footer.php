@@ -1,7 +1,7 @@
 <footer>
 
 <ul>
-    <li><a href="#">Contact</a></li>
+    <li><a href="<?php echo site_url('/contact') ?>"">Contact</a></li>
     <li><a href="#">Twitter</a></li>
     <li><a href="#">Vimeo</a></li>
     <li><a href="#">GitHub</a></li>

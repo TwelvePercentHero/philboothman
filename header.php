@@ -18,9 +18,9 @@
     </div>
     <div class="menu">
     <ul>
-        <li><a href="#">About</a></li>
+        <li><a href="<?php echo site_url('/about') ?>">About</a></li>
         <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="<?php echo site_url('/contact') ?>"">Contact</a></li>
     </ul>
     </div>
     
