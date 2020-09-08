@@ -11,13 +11,16 @@ Version: 1.0
 html {
     height: 100%;
     width: 100%;
-    margin: 12px;
 }
 
 body {
+    min-height: 100%;
     max-width: 800px;
     margin: auto;
+    padding: 12px;
     font-family: 'Raleway', sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 nav {
@@ -25,6 +28,11 @@ nav {
     display: grid;
     grid-template-columns: 2(2fr 1fr);
     padding-bottom: 60px;
+}
+
+footer {
+    max-height: 100%;
+    grid-row: 3 / span 1;
 }
 
 .logo {
@@ -35,7 +43,7 @@ nav {
 .menu {
     grid-column: 2 / span 1;
     padding-top: 22px;
-    padding-right: 32px;
+    padding-right: 8px;
     justify-self: end;
     align-self: top;
 }
@@ -80,4 +88,5 @@ nav {
 
 main {
     margin-top: 40px;
+    grid-row: 2 / span 1;
 }
