@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<header>
+<nav>
     <div class="logo">
     <a class="header-link" href="<?php echo site_url('') ?>">
         <h1 class="main-header">
@@ -16,16 +16,12 @@
         <h2 class="sub-header">Writer | Artist | Filmmaker</h2>
     </a>
     </div>
-    <div class="hamburger">
-        <i class="material-icons" onclick="toggleMenu()">dehaze</i>
+    <div class="menu">
+    <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
     </div>
     
-</header>
-
-<nav id="nav-menu">
-    <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Blog</li>
-    </ul>
 </nav>
