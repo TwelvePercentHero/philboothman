@@ -104,6 +104,16 @@ h2 {
     transform: scale(1, .9);
     letter-spacing: 2.8px;
     font-size: 18px;
+    margin-bottom: 0;
+}
+
+.datetime {
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.post p {
+    font-size: 16px;
 }
 
 /* ------ Footer ------ */

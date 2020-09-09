@@ -5,20 +5,21 @@
 <hr>
 
 
-<div class="post-list">
     <?php while(have_posts()) {
         the_post();
     ?>
 
     <div class="post">
 
-        <h4><?php the_title(); ?></h4>
+        <a href="<?php the_permalink(); ?>">
+            <h4><?php the_title(); ?></h4>
+        </a>
+        <span class="datetime"><?php the_time('F j Y') ?></span>
         <?php the_content(); ?>
 
         <hr>
 
     </div>
-</div>
 
 <?php } wp_reset_query(); ?>
 
