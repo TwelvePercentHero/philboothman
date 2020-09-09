@@ -97,6 +97,10 @@ h2 {
     font-size: 24px;
 }
 
+hr {
+    opacity: 0.5;
+}
+
 /* ------ Index ------ */
 
 .post h4 {
@@ -110,10 +114,27 @@ h2 {
 .datetime {
     font-size: 12px;
     margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .post p {
     font-size: 16px;
+    line-height: 1.7;
+}
+
+/* ------ Single Blog ------ */
+
+.blogpost {
+    margin-bottom: 60px;
+}
+
+.blogpost h2 {
+    margin-bottom: 5px;
+}
+
+.blogpost p {
+    font-size: 16px;
+    line-height: 1.7;
 }
 
 /* ------ Footer ------ */
