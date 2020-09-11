@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<h2>Latest</h2>
+<h2>Blog</h2>
 
 <hr>
 
@@ -15,7 +15,7 @@
             <h4><?php the_title(); ?></h4>
         </a>
         <span class="datetime"><?php the_time('F j Y') ?></span>
-        <?php the_content(); ?>
+        <p><?php echo wp_trim_words(get_the_excerpt(), 25); ?></p>
 
         <hr>
 
