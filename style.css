@@ -138,6 +138,26 @@ hr {
     line-height: 1.7;
 }
 
+/* ------ Contact Form ------ */
+
+.wpcf7 input,
+.wpcf7 textarea {
+    width: 100%;
+}
+
+.wpcf7 input {
+    height: 30px;
+}
+
+.wpcf7 textarea {
+    height: 150px;
+}
+
+.wpcf7-submit {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
 /* ------ Footer ------ */
 
 footer {

@@ -2,6 +2,8 @@
 
 <div class="blogpost">
 
+<a href="<?php echo site_url('/blog') ?>">< Blog Index</a>
+
     <h2><?php the_title(); ?></h2>
 
     <span class="datetime"><?php the_time('F j Y') ?></span>
