@@ -6,7 +6,7 @@
 
     <h2><?php the_title(); ?></h2>
 
-    <span class="datetime"><?php the_time('F j Y') ?></span>
+    <span class="datetime"><?php the_time('F j Y') ?></span> | <?php the_category(', '); ?>
 
     <?php
         wp_reset_query();

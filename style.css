@@ -120,12 +120,12 @@ hr {
     text-transform: uppercase;
     transform: scale(1, .9);
     letter-spacing: 2.8px;
-    font-size: 18px;
-    margin-bottom: 0;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .datetime {
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -133,6 +133,17 @@ hr {
 .post p {
     font-size: 16px;
     line-height: 1.7;
+}
+
+.categories a {
+    font-size: 18px;
+    padding-right: 10px;
+}
+
+.post-categories {
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
 }
 
 /* ------ Single Blog ------ */
