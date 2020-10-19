@@ -40,5 +40,7 @@
 
 <?php } wp_reset_query(); ?>
 
+<?php the_posts_pagination(); ?>
+
 
 <?php get_footer(); ?>

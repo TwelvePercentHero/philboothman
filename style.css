@@ -166,6 +166,8 @@ hr {
 .wpcf7 input,
 .wpcf7 textarea {
     width: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
 }
 
 .wpcf7 input {
@@ -179,6 +181,17 @@ hr {
 .wpcf7-submit {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
+}
+
+/* ------ Pagination ------ */
+
+.navigation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navigation h2 {
+    display: none;
 }
 
 /* ------ Footer ------ */
