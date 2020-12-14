@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<div class="page">
+
 <h2><?php the_title(); ?></h2>
 
 <hr>
@@ -10,6 +12,8 @@
         the_content();
     endwhile;
 ?>
+
+</div>
 
 
 <?php get_footer(); ?>

@@ -20,7 +20,7 @@
     <ul>
         <li><a href="<?php echo site_url('/about') ?>">About</a></li>
         <li><a href="<?php echo site_url('/blog') ?>">Blog</a></li>
-		<li><a href="<?php echo site_url('/take2021') ?>">Take 2021</a></li>
+		<li><a href="<?php echo site_url('/take-2021') ?>">Take 2021</a></li>
         <li><a href="<?php echo site_url('/contact') ?>">Contact</a></li>
     </ul>
     </div>

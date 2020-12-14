@@ -110,7 +110,7 @@ hr {
     margin-top: 0;
     margin-bottom: 10px;
 }
-.post p {
+.post p, .page p {
     font-size: 18px;
     line-height: 1.7;
 }
