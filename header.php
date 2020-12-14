@@ -13,13 +13,14 @@
     <a class="header-link" href="<?php echo site_url('') ?>">
         <h1 class="main-header">
             Phil Boothman</h1>
-        <h2 class="sub-header">Writer | Artist | Filmmaker</h2>
+        <h2 class="sub-header">Writer | Editor | Filmmaker</h2>
     </a>
     </div>
     <div class="menu">
     <ul>
         <li><a href="<?php echo site_url('/about') ?>">About</a></li>
         <li><a href="<?php echo site_url('/blog') ?>">Blog</a></li>
+		<li><a href="<?php echo site_url('/take2021') ?>">Take 2021</a></li>
         <li><a href="<?php echo site_url('/contact') ?>">Contact</a></li>
     </ul>
     </div>

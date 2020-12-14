@@ -5,24 +5,26 @@ Author URI: https://philboothman.com
 Description: The evolving theme for my personal website
 Version: 1.0
 */
-
-/* ------ General ------ */
-
 html {
     height: 100%;
     width: 100%;
 }
-
 body {
     min-height: 100%;
     max-width: 800px;
     margin: auto;
-    padding: 12px;
+    padding: 0;
     font-family: 'Raleway', sans-serif;
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
-
+main {
+	max-width: 100%;
+	padding: 12px;
+	margin-top: 20px;
+    grid-row: 2 / span 1;
+    margin-bottom: 60px;
+}
 img {
     display: block;
     width: 100%;
@@ -30,25 +32,22 @@ img {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 .wp-block-image {
     margin: 0;
 }
-
-/* ------ Header ------ */
-
 nav {
-    height: 40px;
+    height: 80px;
     display: grid;
-    grid-template-columns: 2(2fr 1fr);
-    padding-bottom: 60px;
+    grid-template-columns: 2fr 1fr;
+	padding-left: 12px;
+	padding-right: 12px;
+    padding-bottom: 20px;
 }
-
 .logo {
     grid-column: 1 / span 1;
     align-self: top;
+	padding-top: 20px;
 }
-
 .main-header {
     text-transform: uppercase;
     font-size: 28px;
@@ -56,7 +55,6 @@ nav {
     transform: scale(1, .9);
     margin-bottom: 0;
 }
-
 .sub-header {
     text-transform: uppercase;
     font-size: 9px;
@@ -65,16 +63,13 @@ nav {
     margin-top: 3px;
     color: grey;
 }
-
 .header-link {
     text-decoration: none;
     color: black;
 }
-
 .header-link:hover {
     color: grey;
 }
-
 .menu {
     grid-column: 2 / span 1;
     padding-top: 22px;
@@ -82,40 +77,27 @@ nav {
     justify-self: end;
     align-self: top;
 }
-
 .menu ul {
     margin: 0;
     padding: 0;
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
 }
-
 .menu ul li {
     display: inline;
     list-style: none;
     padding-left: 10px;
     font-size: 20px;
 }
-
-/* ------ Body ------ */
-
-main {
-    margin-top: 20px;
-    grid-row: 2 / span 1;
-    margin-bottom: 60px;
-}
-
 h2 {
     text-transform: uppercase;
     transform: scale(1, .9);
     letter-spacing: 2.8px;
     font-size: 24px;
 }
-
 hr {
     opacity: 0.5;
 }
-
-/* ------ Index ------ */
-
 .post h4 {
     text-transform: uppercase;
     transform: scale(1, .9);
@@ -123,92 +105,83 @@ hr {
     font-size: 20px;
     margin-bottom: 10px;
 }
-
 .datetime {
     font-size: 16px;
     margin-top: 0;
     margin-bottom: 10px;
 }
-
 .post p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.7;
 }
-
 .categories a {
     font-size: 18px;
     padding-right: 10px;
 }
-
 .post-categories {
     list-style: none;
     padding: 0;
     font-size: 16px;
 }
-
-/* ------ Single Blog ------ */
-
 .blogpost {
     margin-bottom: 60px;
 }
-
 .blogpost h2 {
     margin-bottom: 5px;
 }
-
 .blogpost p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.7;
 }
-
-/* ------ Contact Form ------ */
-
 .wpcf7 input,
 .wpcf7 textarea {
     width: 100%;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
 }
-
 .wpcf7 input {
     height: 30px;
 }
-
 .wpcf7 textarea {
     height: 150px;
 }
-
 .wpcf7-submit {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
 }
-
-/* ------ Pagination ------ */
-
 .navigation {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 .navigation h2 {
     display: none;
 }
-
-/* ------ Footer ------ */
-
 footer {
     max-height: 100%;
     grid-row: 3 / span 1;
+	padding-left: 12px;
 }
-
 footer ul {
     margin: 0;
     padding: 0;
 }
-
 footer ul li {
     display: inline;
     list-style: none;
-    padding-right: 14px;
+    padding-right: 12px;
     padding-bottom: 20px;
+}
+@media only screen and (min-width: 400px){
+	.main-header {
+		font-size: 22px;
+	}
+	.sub-header {
+		font-size: 12px;
+	}
+	.menu ul li {
+        font-size: 20px;
+    }
+	img {
+		max-width: 376px;
+	}	
 }
